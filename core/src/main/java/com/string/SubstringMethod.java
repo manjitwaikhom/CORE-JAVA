@@ -1,4 +1,4 @@
-package com.stringrelated;
+package com.string;
 public class SubstringMethod{
    public static void main(String args[]){
       String Str = new String("Welcome to waikhom.com");
