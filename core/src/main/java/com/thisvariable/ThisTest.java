@@ -24,7 +24,7 @@ class Hello
         final Hello h2 = new Hello();
 	//h2=null;
 	//this=null;
-	this();
+	//this();
     }
 
     static void display()
