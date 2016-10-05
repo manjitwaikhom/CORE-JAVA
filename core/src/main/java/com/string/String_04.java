@@ -2,7 +2,7 @@ package com.string;
 /*----STRING-------*/
 public class String_04{
 public static void main(String as[]){
-String str="jlcindiajlc";
+String str="mjtindiamjt";
 System.out.println(" ");
 System.out.println("str.charAt(3)");
 System.out.println(str.charAt(3));

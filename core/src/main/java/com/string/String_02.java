@@ -41,28 +41,28 @@ System.out.println(st2.equalsIgnoreCase(st1));
 System.out.println("st1.equalsIgnoreCase(st3)");
 System.out.println(st1.equalsIgnoreCase(st3));
 
-String str="jlcindiajlc";
+String str="mjtindiamjt";
 System.out.println(str);
-System.out.println("str.indexOf(jlc)");
-System.out.println(str.indexOf("jlc"));
+System.out.println("str.indexOf(mjt)");
+System.out.println(str.indexOf("mjt"));
 
-System.out.println("str.lastIndexOf(jlc)");
-System.out.println(str.lastIndexOf("jlc"));
+System.out.println("str.lastIndexOf(mjt)");
+System.out.println(str.lastIndexOf("mjt"));
 
-System.out.println("str.indexOf(jlc,2)");
-System.out.println(str.indexOf("jlc",2));
+System.out.println("str.indexOf(mjt,2)");
+System.out.println(str.indexOf("mjt",2));
 
-System.out.println("str.lastIndexOf(jlc,6)");
-System.out.println(str.lastIndexOf("jlc",6));
+System.out.println("str.lastIndexOf(mjt,6)");
+System.out.println(str.lastIndexOf("mjt",6));
 
 System.out.println("str.startsWith()");
-System.out.println(str.startsWith("jlc"));
+System.out.println(str.startsWith("mjt"));
 
 System.out.println("str.startsWith()");
 System.out.println(str.startsWith("sri"));
 
 System.out.println("str.endsWith()");
-System.out.println(str.endsWith("jlc"));
+System.out.println(str.endsWith("mjt"));
 
 System.out.println("str.endsWith()");
 System.out.println(str.endsWith("sri"));

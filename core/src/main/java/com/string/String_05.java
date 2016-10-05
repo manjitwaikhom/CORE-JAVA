@@ -2,7 +2,7 @@ package com.string;
 /*-----------STRING-------*/
 public class String_05{
 public static void main(String as[]){
-String str="jlcindiajlc";
+String str="mjtindiamjt";
 System.out.println(str.length());
 byte b[]=new byte[15];
 b=str.getBytes();//???????????????????????????

@@ -2,15 +2,15 @@ package com.string;
 /*--- EXAMPLE USING STRING-----*/
 class String_03{
 public static void main(String as[]){
-String str="jlcindiajlc";
+String str="mjtindiamjt";
 String ss1="hello";
 
-System.out.println(ss1.concat("jlc"));
+System.out.println(ss1.concat("mjt"));
 System.out.println(str);
-//System.out.println(str.replaceFirst("jlc","JLC"));
-System.out.println(str.replaceAll("jlc","JLC"));
+//System.out.println(str.replaceFirst("mjt","mjt"));
+System.out.println(str.replaceAll("mjt","mjt"));
 
-String sss="i am manjit. Now i am in jlc class. Listening the class";
+String sss="i am manjit. Now i am in mjt class. Listening the class";
 String ss[]=sss.split(" ");
 for(int i=0;i<ss.length;i++){
 
