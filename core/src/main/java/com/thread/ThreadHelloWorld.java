@@ -1,6 +1,6 @@
 package com.thread;
 /*----------------------THREADING------------------------------*/
-class Lab1{
+class ThreadHelloWorld{
 public static void main(String as[]){
 System.out.println("main begin");
 Thread t=Thread.currentThread();
