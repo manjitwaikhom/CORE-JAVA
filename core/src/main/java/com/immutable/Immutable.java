@@ -46,12 +46,14 @@ final class Student {
 
 	}
 
+	// there should not be any setters
 	public int getSid() {
 
 		return this.sid;
 
 	}
 
+	// there should not be any setters
 	public Address getStudAddress() {
 
 		return (Address) studAdd.clone();
