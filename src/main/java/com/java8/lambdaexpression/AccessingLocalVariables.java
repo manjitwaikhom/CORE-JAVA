@@ -1,4 +1,4 @@
-package com.java8.lambdaexpressions;
+package com.java8.lambdaexpression;
 
 public class AccessingLocalVariables{
 	public static void main(String[] args) {

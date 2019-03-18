@@ -1,4 +1,4 @@
-package com.java8.lambdaexpressions;
+package com.java8.lambdaexpression;
 
 @FunctionalInterface
 public interface Converter <F,T>{
