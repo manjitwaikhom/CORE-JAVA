@@ -8,16 +8,18 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		//static method reference
-		Converter<String,Integer> converter1=Integer::valueOf;
-		Integer integer=converter1.convert("123");
-		System.out.println(">static> "+integer);
+		Sayable  sayable1=StaticMethodReference::saySomething;
+		sayable1.say();
+		
 		
 		//Object method reference
-		Something something=new Something();
-		Converter<String, String> converter2 = something::startsWith;
-		String converted = converter2.convert("Java");
-		System.out.println(">object> "+converted); 
+		InstanceMethodReference instanceMethodReference = new InstanceMethodReference();
+		Sayable sayable2 = instanceMethodReference::saySomething;
+		sayable2.say();
 		
+		//Constructor reference
+		Sayable sayable3=ConstructorReference::new;
+		sayable3.say();
 		
 		
 
