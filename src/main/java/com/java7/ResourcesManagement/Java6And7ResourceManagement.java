@@ -1,4 +1,4 @@
-package com.java7.tryWithResources;
+package com.java7.ResourcesManagement;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
