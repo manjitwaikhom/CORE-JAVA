@@ -49,6 +49,14 @@ public class OrderOfStorageInListAndSet {
 		s.add(8);
 		s.add(7);
 		System.out.println("Stack:   " + s + "  >> AS ADDED ORDER");// as-added
+		
+		/*OUTPUT:
+		-------LIST---------
+		ArrayList: [c, b, a, 9, 8, 7, a, 9]  >> AS ADDED ORDER
+		LinkedList:  [c, b, a, 9, 8, 7]  >> AS ADDED ORDER
+		Vector:  [c, b, a, 9, 8, 7]  >> AS ADDED ORDER
+		Stack:   [c, b, a, 9, 8, 7]  >> AS ADDED ORDER
+		*/
 
 		// set
 		System.out.println("\n");
@@ -81,6 +89,13 @@ public class OrderOfStorageInListAndSet {
 		ts.add("2");
 		ts.add("1");
 		System.out.println("TreeSet: " + ts + "  >> SORTED ORDER");// sorted-order
+		
+		/*
+		 -------SET---------
+		HashSet: [a, b, c, 7, 8, 9]  >> NO ORDER
+		LinkedHashSet: [a, b, c, 7, 8, 9]  >> NO ORDER
+		TreeSet: [1, 2, 3, 4, a, b, c, d]  >> SORTED ORDER
+		*/
 
 		// ArrayDeque q = new ArrayDeque();
 		// q.add("c");
