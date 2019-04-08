@@ -77,7 +77,7 @@ public class OrderOfStorageInListAndSet {
 		lhs.add(9);
 		lhs.add(8);
 		lhs.add(7);
-		System.out.println("LinkedHashSet: " + hs + "  >> NO ORDER");// no-order
+		System.out.println("LinkedHashSet: " + hs + "  >> ORDERED");// no-order
 
 		TreeSet ts = new TreeSet();
 		ts.add("d");
@@ -93,7 +93,7 @@ public class OrderOfStorageInListAndSet {
 		/*
 		 -------SET---------
 		HashSet: [a, b, c, 7, 8, 9]  >> NO ORDER
-		LinkedHashSet: [a, b, c, 7, 8, 9]  >> NO ORDER
+		LinkedHashSet: [a, b, c, 7, 8, 9]  >> ORDERED
 		TreeSet: [1, 2, 3, 4, a, b, c, d]  >> SORTED ORDER
 		*/
 
