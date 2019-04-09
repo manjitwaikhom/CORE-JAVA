@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Stack;
 import java.util.TreeSet;
 import java.util.Vector;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class OrderOfStorageInListAndSet {
 
@@ -89,6 +91,29 @@ public class OrderOfStorageInListAndSet {
 		ts.add("2");
 		ts.add("1");
 		System.out.println("TreeSet: " + ts + "  >> SORTED ORDER");// sorted-order
+		
+		
+		//Queue
+		System.out.println("\n");
+		System.out.println("-------QUEUE---------");
+		PriorityQueue<String> pQueue=new PriorityQueue<String>();
+		pQueue.add("c");
+		pQueue.add("b");
+		pQueue.add("a");
+		pQueue.add("9");
+		pQueue.add("8");
+		pQueue.add("7");
+		System.out.println("PriorityQueue: "+pQueue+"   >> NO ORDER");
+				
+		//NEED TO CHECK THE CODE
+		PriorityBlockingQueue<String> bQueue=new PriorityBlockingQueue<String>();
+		pQueue.add("c");
+		pQueue.add("b");
+		pQueue.add("a");
+		pQueue.add("9");
+		pQueue.add("8");
+		pQueue.add("7");
+		System.out.println("PriorityBlockingQueue: "+pQueue+"   >> NO ORDER");
 		
 		/*
 		 -------SET---------
