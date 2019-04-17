@@ -4,7 +4,7 @@ public class StringBuilder_02 {
 public static void main(String[] args) {
 
 System.out.println();
-StringBuffer sb = new StringBuffer("JLC");
+StringBuffer sb = new StringBuffer("MJT");
 char arr[] = {'A','B','C','D'};
 sb.append(true);
 sb.append(123);
