@@ -2,7 +2,7 @@ package com.logics;
 
 import java.util.Arrays;
 
-class RepeatedElements{
+class CountOfRepeatedElements{
 
 public static void main(String arg[]){
 int count=0;
