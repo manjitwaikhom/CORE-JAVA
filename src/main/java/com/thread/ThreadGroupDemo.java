@@ -40,7 +40,9 @@ public class ThreadGroupDemo
 
 		// checking the number of active thread 
 		System.out.println("number of active thread: "
-						+ tg.activeCount()); 
+						+ tg.activeCount());
+		//Destroys the thread group and any child groups on which it is called.
+		tg.destroy();
 	} 
 } 
 
