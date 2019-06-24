@@ -4,7 +4,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.logging.Logger;
 
-
+/*in this example buffer is responsible for creating or removing the elements.
+ * check next example for this problem
+ * */
 public class ClassicProducerConsumerExample {
     
     public static final Logger LOGGER= Logger.getLogger(ClassicProducerConsumerExample.class.getName());
