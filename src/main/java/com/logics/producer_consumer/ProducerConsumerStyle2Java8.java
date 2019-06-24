@@ -1,4 +1,4 @@
-package com.logics;
+package com.logics.producer_consumer;
 
 import java.util.LinkedList;
 import java.util.Queue;
