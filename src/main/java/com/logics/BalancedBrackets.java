@@ -12,6 +12,7 @@ public class BalancedBrackets {
 	Scanner scanner = new Scanner(System.in);
 	System.out.println("Enter a string to check if it has balanced brackets");
 	String input = scanner.next();
+	scanner.close();
 
 	String checkBalancedExpr = checkBalancedParentesis(input);
 	System.out.println(input + " : " + checkBalancedExpr);
@@ -37,10 +38,11 @@ public class BalancedBrackets {
 		}
 		char last = stack.peek();
 		
-		if (current == '}' && last == '{' || current == ')' && last == '(' || current == ']' && last == '[')
+		if (current == '}' && last == '{' || current == ')' && last == '(' || current == ']' && last == '[') {
 		    stack.pop();
-		else
+		}else {
 		    return "Not Balanced";
+		}
 	    }
 	    
 	}
