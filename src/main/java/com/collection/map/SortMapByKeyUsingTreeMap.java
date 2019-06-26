@@ -53,7 +53,7 @@ public class SortMapByKeyUsingTreeMap {
 	    Map<String, Integer> map = new HashMap<>();  
 		map.put("Bunty", 80); 
 		map.put("Abhishek", 90); 
-		map.put("Ciela", 80); 
+		map.put("Cathy", 80); 
 		map.put("Amit", 75); 
 		map.put("Dennis", 40); 
 		map.put("David", 50); 
