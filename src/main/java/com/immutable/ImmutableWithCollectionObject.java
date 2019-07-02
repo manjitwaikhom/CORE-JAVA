@@ -4,7 +4,7 @@ package com.immutable;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public final class ImmutableWithMutableField {
+public final class ImmutableWithCollectionObject {
 
 	private final int id;
 	
@@ -30,7 +30,7 @@ public final class ImmutableWithMutableField {
 
 	
 	 //Constructor performing Deep Copy
-	public ImmutableWithMutableField(int i, String n, HashMap<String,String> hm){
+	public ImmutableWithCollectionObject(int i, String n, HashMap<String,String> hm){
 		System.out.println("Performing Deep Copy for Object initialization");
 		this.id=i;
 		this.name=n;
@@ -65,7 +65,7 @@ public final class ImmutableWithMutableField {
 		
 		int i=10;
 		
-		ImmutableWithMutableField immutable = new ImmutableWithMutableField(i,s,h1);
+		ImmutableWithCollectionObject immutable = new ImmutableWithCollectionObject(i,s,h1);
 		
 		//Lets see whether its copy by field or referenimmutable
 		System.out.println(s==immutable.getName());
