@@ -7,9 +7,6 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-record Employee(int id,String name,String department,double salary){}
-
-
 public class MostCommonFirstLetterJava8 {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
