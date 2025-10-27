@@ -5,7 +5,7 @@ import java.util.*;
 public class RepeatedNumbers {
     public static void main(String[] args) {
         // Example array
-        int[] arr = {1, 2, 3, 2, 4, 1, 5, 3, 2};
+        int[] arr = {1, 2, 3, 2, 4, 1, 5, 3, 2,2};
 
         // Method to find repeated numbers and their counts
         findRepeatedNumbers(arr);
