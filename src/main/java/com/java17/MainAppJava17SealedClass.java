@@ -25,7 +25,7 @@ non-sealed class TwoWheeler implements Vehicle{
 }
 
 
-public class MainAppJava17 {
+public class MainAppJava17SealedClass {
     public static void main(String[] args) {
 
     }
