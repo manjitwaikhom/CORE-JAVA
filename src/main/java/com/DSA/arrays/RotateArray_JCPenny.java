@@ -1,4 +1,4 @@
-package com.DSA;
+package com.DSA.arrays;
 
 public class RotateArray_JCPenny {
 
