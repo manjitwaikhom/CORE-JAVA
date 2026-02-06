@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class FrequencyOfACharacter {
+public class FrequencyOfACharacter_Wipro {
     public static void main(String[] args) {
         String str="manjitmanja";
 
